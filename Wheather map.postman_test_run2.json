@@ -1,0 +1,146 @@
+{
+	"id": "eadef87c-0511-4a6d-b1af-072f3b227cbd",
+	"name": "Wheather map",
+	"timestamp": "2023-09-04T17:50:51.436Z",
+	"collection_id": "28959674-8541289e-38b3-4bc7-b1f3-dbf2995cf739",
+	"folder_id": 0,
+	"environment_id": "28959674-c5cbf2e7-41b5-4486-b3e3-604ea018499b",
+	"totalPass": 4,
+	"delay": "2",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-04T17:50:50.052Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4ced05ae-6660-4d97-8c83-d1deee0ea9ec",
+			"name": "Get req",
+			"url": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6 907d289e10d714a6e88b30761fae22. \n\n",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Latitude and Longitude Assertion": true
+			},
+			"testPassFailCounts": {
+				"Latitude and Longitude Assertion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Latitude and Longitude Assertion": true
+				}
+			]
+		},
+		{
+			"id": "8b618a48-feff-4cc3-9a0a-8c04e94e9bba",
+			"name": "get 1",
+			"url": "https://samples.openweathermap.org/data/2.5/weather?q=New%20York,us&appid=b6907d289e10d714a6e88b30761fae22\n",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Latitude and Longitude Assertion": true
+			},
+			"testPassFailCounts": {
+				"Latitude and Longitude Assertion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				162
+			],
+			"allTests": [
+				{
+					"Latitude and Longitude Assertion": true
+				}
+			]
+		},
+		{
+			"id": "f109f5c6-a1cb-488d-a229-492ff06d7d4c",
+			"name": "get 2",
+			"url": "https://samples.openweathermap.org/data/2.5/weather?q=Tokyo,jp&appid=b6907d289e10d714a6e88b30761fae22\n",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Latitude and Longitude Assertion": true
+			},
+			"testPassFailCounts": {
+				"Latitude and Longitude Assertion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Latitude and Longitude Assertion": true
+				}
+			]
+		},
+		{
+			"id": "ea1320fc-b03b-49ec-9063-9595ff3bd273",
+			"name": "get 3",
+			"url": "https://samples.openweathermap.org/data/2.5/weather?q=Sydney,au&appid=b6907d289e10d714a6e88b30761fae22\n",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Latitude and Longitude Assertion": true
+			},
+			"testPassFailCounts": {
+				"Latitude and Longitude Assertion": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Latitude and Longitude Assertion": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 664,
+	"collection": {
+		"requests": [
+			{
+				"id": "4ced05ae-6660-4d97-8c83-d1deee0ea9ec",
+				"method": "GET"
+			},
+			{
+				"id": "8b618a48-feff-4cc3-9a0a-8c04e94e9bba",
+				"method": "GET"
+			},
+			{
+				"id": "f109f5c6-a1cb-488d-a229-492ff06d7d4c",
+				"method": "GET"
+			},
+			{
+				"id": "ea1320fc-b03b-49ec-9063-9595ff3bd273",
+				"method": "GET"
+			}
+		]
+	}
+}
